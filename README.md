@@ -46,8 +46,6 @@ Edit `.env`:
 VITE_NASA_API_KEY=your_actual_api_key_here
 ```
 
-> **Note:** `.env` is gitignored so your key is never committed.
-
 ### 3. Install and run locally
 
 ```bash
@@ -66,18 +64,11 @@ npm run preview
 
 Static files are output to the `dist/` folder.
 
-## Deploy to GitHub Pages
+### OR 
 
-1. Push this repo to GitHub.
-2. In **Settings → Secrets and variables → Actions**, add a repository secret:
-   - Name: `VITE_NASA_API_KEY`
-   - Value: your NASA API key
-3. In **Settings → Pages**, set **Source** to **GitHub Actions**.
-4. Push to the `main` branch — the workflow in `.github/workflows/deploy.yml` builds and deploys automatically.
+Vsit my site live at:
 
-Your site will be live at:
-
-`https://<username>.github.io/A-NASA-APOD-and-INFO-site/`
+`https://srinj-ai.github.io/A-NASA-APOD-and-INFO-site/`
 
 ## Tech Stack
 
@@ -87,4 +78,4 @@ Your site will be live at:
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [MIT](LICENSE).
