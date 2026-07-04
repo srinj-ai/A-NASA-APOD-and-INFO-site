@@ -6,7 +6,7 @@ A lightweight web app that displays [NASA's Astronomy Picture of the Day (APOD)]
 
 ---
 <p align="center">
-  <img src="css/Screenshot 2026-07-04 151208.png" alt="TXJ WebOS">
+  <img src="css/Screenshot 2026-07-04 151208.png" alt="NASA APOD INFO">
 </p>
 
 
