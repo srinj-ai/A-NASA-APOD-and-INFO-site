@@ -4,6 +4,12 @@ A lightweight web app that displays [NASA's Astronomy Picture of the Day (APOD)]
 
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 
+---
+<p align="center">
+  <img src="dist/assets/Screenshot 2026-07-04 151208.png" alt="TXJ WebOS">
+</p>
+
+
 ## Features
 
 - Today's Astronomy Picture of the Day on load
@@ -74,8 +80,12 @@ Vsit my site live at:
 
 - HTML, CSS, JavaScript
 - [Vite](https://vite.dev/) for dev server and env variable injection
-- NASA APOD API
+- NASA APOD [API](https://api.nasa.gov/)
 
 ## License
 
-MIT — see [MIT](LICENSE).
+MIT — see [LICENCE](LICENSE).
+
+## Made By
+
+[SRINJOY DAS](https://github.com/srinj-ai) 
