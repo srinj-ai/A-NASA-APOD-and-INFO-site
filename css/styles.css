@@ -19,6 +19,36 @@ body {
     padding: 40px 20px;
 }
 
+.topbar {
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 24px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.brand-logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.brand-kicker {
+    margin: 0 0 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.28em;
+    color: #93c5fd;
+    font-size: 0.72rem;
+}
+
 button:focus-visible {
     outline: 3px solid #a5b4fc;
     outline-offset: 3px;
@@ -32,7 +62,7 @@ button:focus-visible {
 h1 {
     font-weight: 600;
     letter-spacing: -0.05em;
-    margin-bottom: 30px;
+    margin: 0;
 }
 
 .sr-only {
@@ -116,12 +146,21 @@ button:hover {
         padding: 24px 16px;
     }
 
+    .brand {
+        gap: 12px;
+    }
+
+    .brand-logo {
+        width: 54px;
+        height: 54px;
+        border-radius: 16px;
+    }
+
     .apod-container {
         padding: 20px;
     }
 
     h1 {
-        font-size: 1.75rem;
-        text-align: center;
+        font-size: 1.6rem;
     }
 }
