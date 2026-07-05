@@ -15,7 +15,6 @@ A lightweight web app that displays [NASA's Astronomy Picture of the Day (APOD)]
 - Today's Astronomy Picture of the Day on load
 - Random APOD explorer button
 - Responsive glassmorphism UI
-- Environment-based API key configuration
 
 ## Project Structure
 
