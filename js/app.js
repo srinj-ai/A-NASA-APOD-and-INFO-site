@@ -1,4 +1,4 @@
-const apiKey = import.meta.env.VITE_NASA_API_KEY || 'DEMO_KEY';
+const apiKey = import.meta.env?.VITE_NASA_API_KEY || 'DEMO_KEY';
 
 const elements = {
     display: document.getElementById('display'),
